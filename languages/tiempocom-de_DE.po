@@ -1,0 +1,391 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: tiempocom\n"
+"POT-Creation-Date: 2013-09-17 14:28+0100\n"
+"PO-Revision-Date: 2013-09-17 14:28+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;_e;__\n"
+"X-Poedit-Basepath: /Users/grindcode/Source/testdrive/wp-content/plugins/\n"
+"X-Poedit-SearchPath-0: tiempocom\n"
+
+#: tiempocom/tiempocom.php:22
+#, php-format
+msgid ""
+"<strong>Tiempo.com Plugin</strong>: Set write permissions to <strong>%s</"
+"strong> directory to enable caching."
+msgstr ""
+"<strong>Tiempo.com Plugin</strong>: Geben Sie für das Verzeichnis <strong>"
+"%s</strong> in den Cache aktivieren."
+
+#: tiempocom/app/admin.php:5
+msgid "Add shortcode"
+msgstr "In Shortcode"
+
+#: tiempocom/app/admin.php:7
+#, php-format
+msgid ""
+"The plugin %s is an application with which you can get the weather forecast "
+"for the locations you want daily."
+msgstr ""
+"Das Plugin %s ist eine Anwendung, mit der Sie täglich die Wettervorhersage "
+"für die Orte Ihrer Wahl bekommen können."
+
+#: tiempocom/app/widget.php:20
+msgid "Tiempo.com Widget"
+msgstr "Tiempo.com Widget"
+
+#: tiempocom/app/widget.php:130 tiempocom/app/helpers/shortcodes.table.php:154
+msgid "A location is required."
+msgstr "Ort erforderlich."
+
+#: tiempocom/app/widget.php:136 tiempocom/app/helpers/shortcodes.form.php:33
+#: tiempocom/app/helpers/shortcodes.table.php:102
+msgid "Title"
+msgstr "Titel"
+
+#: tiempocom/app/widget.php:143 tiempocom/app/helpers/shortcodes.form.php:40
+#: tiempocom/app/helpers/shortcodes.table.php:106
+msgid "Language"
+msgstr "Sprache"
+
+#: tiempocom/app/widget.php:156 tiempocom/app/helpers/shortcodes.form.php:53
+msgid "Continent"
+msgstr "Kontinent"
+
+#: tiempocom/app/widget.php:158 tiempocom/app/helpers/shortcodes.form.php:55
+msgid "Select a continent"
+msgstr "Wählen Sie einen Kontinent"
+
+#: tiempocom/app/widget.php:167 tiempocom/app/helpers/shortcodes.form.php:63
+msgid "Country"
+msgstr "Land"
+
+#: tiempocom/app/widget.php:169 tiempocom/app/helpers/shortcodes.form.php:65
+msgid "Select a country"
+msgstr "Wählen Sie ein Land"
+
+#: tiempocom/app/widget.php:205 tiempocom/app/helpers/shortcodes.form.php:100
+msgid "Province"
+msgstr "Provinz"
+
+#: tiempocom/app/widget.php:207 tiempocom/app/helpers/shortcodes.form.php:102
+msgid "Select a province"
+msgstr "Wählen Sie eine Provinz"
+
+#: tiempocom/app/widget.php:219 tiempocom/app/helpers/shortcodes.form.php:114
+#: tiempocom/app/helpers/shortcodes.table.php:103
+msgid "Location"
+msgstr "Ort"
+
+#: tiempocom/app/widget.php:221 tiempocom/app/helpers/shortcodes.form.php:116
+msgid "Select a location"
+msgstr "Wählen Sie einen Ort"
+
+#: tiempocom/app/widget.php:249 tiempocom/app/helpers/shortcodes.form.php:148
+msgid "Time"
+msgstr "Zeit"
+
+#: tiempocom/app/widget.php:252 tiempocom/app/helpers/shortcodes.form.php:151
+msgid "days"
+msgstr "Tage"
+
+#: tiempocom/app/widget.php:252 tiempocom/app/helpers/shortcodes.form.php:151
+msgid "day"
+msgstr "Tag"
+
+#: tiempocom/app/widget.php:260 tiempocom/app/helpers/shortcodes.form.php:159
+#: tiempocom/app/helpers/shortcodes.table.php:104
+msgid "Format"
+msgstr "Format"
+
+#: tiempocom/app/widget.php:282 tiempocom/app/helpers/shortcodes.form.php:181
+msgid "Temperature format"
+msgstr "Temperatur-Format"
+
+#: tiempocom/app/widget.php:293 tiempocom/app/helpers/shortcodes.form.php:192
+msgid "Wind speed format"
+msgstr "Windgeschwindigkeit-Format"
+
+#: tiempocom/app/widget.php:304 tiempocom/app/helpers/shortcodes.form.php:203
+msgid "Rain format"
+msgstr "Format Regen"
+
+#: tiempocom/app/widget.php:325 tiempocom/app/helpers/shortcodes.form.php:228
+msgid "Frame"
+msgstr "Rahmen"
+
+#: tiempocom/app/widget.php:328 tiempocom/app/helpers/shortcodes.form.php:231
+msgid "Background"
+msgstr "Hintergrund"
+
+#: tiempocom/app/widget.php:331 tiempocom/app/helpers/shortcodes.form.php:234
+msgid "Text"
+msgstr "Text"
+
+#: tiempocom/app/widget.php:334 tiempocom/app/helpers/shortcodes.form.php:237
+msgid "Max"
+msgstr "Maximal"
+
+#: tiempocom/app/widget.php:337 tiempocom/app/helpers/shortcodes.form.php:240
+msgid "Min"
+msgstr "Minimal"
+
+#: tiempocom/app/widget.php:345 tiempocom/app/helpers/shortcodes.form.php:248
+msgid "Font"
+msgstr "Quelle"
+
+#: tiempocom/app/helpers/shortcodes.db.php:287
+msgid "Tiempo.com"
+msgstr "Tiempo.com"
+
+#: tiempocom/app/helpers/shortcodes.form.php:48
+msgid "1. Location"
+msgstr "1. Ort"
+
+#: tiempocom/app/helpers/shortcodes.form.php:143
+msgid "2. Format"
+msgstr "2. Format"
+
+#: tiempocom/app/helpers/shortcodes.form.php:167
+msgid "3. Content"
+msgstr "3. Inhalt"
+
+#: tiempocom/app/helpers/shortcodes.form.php:215
+msgid "4. Style"
+msgstr "4. Stil"
+
+#: tiempocom/app/helpers/shortcodes.form.php:261
+msgid "Save"
+msgstr "Speichern"
+
+#: tiempocom/app/helpers/shortcodes.form.php:268
+#: tiempocom/app/helpers/shortcodes.table.php:70
+#: tiempocom/app/helpers/shortcodes.table.php:137
+msgid "Delete"
+msgstr "Löschen"
+
+#: tiempocom/app/helpers/shortcodes.form.php:272
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: tiempocom/app/helpers/shortcodes.table.php:54
+msgid "Copy to clipboard"
+msgstr "In die Zwischenablage kopieren"
+
+#: tiempocom/app/helpers/shortcodes.table.php:69
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: tiempocom/app/helpers/shortcodes.table.php:101
+msgid "ID"
+msgstr "ID"
+
+#: tiempocom/app/helpers/shortcodes.table.php:105
+#: tiempocom/app/helpers/statics.php:37
+msgid "Days"
+msgstr "Tage"
+
+#: tiempocom/app/helpers/shortcodes.table.php:107
+msgid "Style"
+msgstr "Stil"
+
+#: tiempocom/app/helpers/shortcodes.table.php:108
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: tiempocom/app/helpers/shortcodes.table.php:163
+msgid "Shortcode created successfully."
+msgstr "Der Shortcode wurde erfolgreich erstellt."
+
+#: tiempocom/app/helpers/shortcodes.table.php:166
+msgid "Error creating shortcode."
+msgstr "Es gab einen Fehler beim Speichern des Shortcodes."
+
+#: tiempocom/app/helpers/shortcodes.table.php:175
+msgid "Shortcode updated successfully."
+msgstr "Shortcode erfolgreich aktualisiert."
+
+#: tiempocom/app/helpers/shortcodes.table.php:178
+msgid "Error updating shortcode."
+msgstr "Ein Fehler ist aufgetreten bei der Aktualisierung des Shortcodes."
+
+#: tiempocom/app/helpers/shortcodes.table.php:193
+msgid "Shortcode deleted successfully."
+msgstr "Shortcode erfolgreich gelöscht."
+
+#: tiempocom/app/helpers/shortcodes.table.php:196
+msgid "Error deleting shortcode."
+msgstr "Es gab einen Fehler beim Löschen des Shortcodes."
+
+#: tiempocom/app/helpers/statics.php:9
+msgid "German"
+msgstr "Deutsch"
+
+#: tiempocom/app/helpers/statics.php:10
+msgid "Catalan"
+msgstr "Katalanisch"
+
+#: tiempocom/app/helpers/statics.php:11
+msgid "Spanish (Spain)"
+msgstr "Spanisch (Spanien)"
+
+#: tiempocom/app/helpers/statics.php:12
+msgid "French"
+msgstr "Französisch"
+
+#: tiempocom/app/helpers/statics.php:13
+msgid "English"
+msgstr "Englisch"
+
+#: tiempocom/app/helpers/statics.php:14
+msgid "Italian"
+msgstr "Italienisch"
+
+#: tiempocom/app/helpers/statics.php:15
+msgid "Portuguese"
+msgstr "Portugiesisch"
+
+#: tiempocom/app/helpers/statics.php:16
+msgid "Galician"
+msgstr "Galizisch"
+
+#: tiempocom/app/helpers/statics.php:17
+msgid "Euskera"
+msgstr "Euskera"
+
+#: tiempocom/app/helpers/statics.php:38
+msgid "Symbol"
+msgstr "Symbol"
+
+#: tiempocom/app/helpers/statics.php:39
+msgid "Temperature"
+msgstr "Temperatur"
+
+#: tiempocom/app/helpers/statics.php:40
+msgid "Wind"
+msgstr "Wind"
+
+#: tiempocom/app/helpers/statics.php:41
+msgid "Relative humidity"
+msgstr "Relative Luftfeuchtigkeit"
+
+#: tiempocom/app/helpers/statics.php:42
+msgid "Snow height"
+msgstr "Schneehöhe"
+
+#: tiempocom/app/helpers/statics.php:43
+#: tiempocom/app/helpers/templates.php:487
+msgid "Pressure"
+msgstr "Druck"
+
+#: tiempocom/app/helpers/statics.php:44
+#: tiempocom/app/helpers/templates.php:493
+msgid "Sunrise/Sunset"
+msgstr "Sonnenaufgang"
+
+#: tiempocom/app/helpers/statics.php:45
+msgid "Moon"
+msgstr "Mondaufgang/Monduntergang"
+
+#: tiempocom/app/helpers/statics.php:46
+#: tiempocom/app/helpers/templates.php:469
+msgid "Rain"
+msgstr "Regen"
+
+#: tiempocom/app/helpers/statics.php:66
+msgid "Normal"
+msgstr "Normal"
+
+#: tiempocom/app/helpers/statics.php:67
+msgid "Small"
+msgstr "Klein"
+
+#: tiempocom/app/helpers/statics.php:68
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: tiempocom/app/helpers/statics.php:69
+msgid "Vertical"
+msgstr "Vertikal"
+
+#: tiempocom/app/helpers/statics.php:70
+msgid "Wide"
+msgstr "Breit"
+
+#: tiempocom/app/helpers/statics.php:71
+msgid "Complete"
+msgstr "Komplett"
+
+#: tiempocom/app/helpers/statics.php:82
+msgid "Monday"
+msgstr "Montag"
+
+#: tiempocom/app/helpers/statics.php:83
+msgid "Tuesday"
+msgstr "Dienstag"
+
+#: tiempocom/app/helpers/statics.php:84
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+#: tiempocom/app/helpers/statics.php:85
+msgid "Thursday"
+msgstr "Donnerstag"
+
+#: tiempocom/app/helpers/statics.php:86
+msgid "Friday"
+msgstr "Freitag"
+
+#: tiempocom/app/helpers/statics.php:87
+msgid "Saturday"
+msgstr "Samstag"
+
+#: tiempocom/app/helpers/statics.php:88
+msgid "Sunday"
+msgstr "Sonntag"
+
+#: tiempocom/app/helpers/templates.php:107
+#: tiempocom/app/helpers/templates.php:131
+#: tiempocom/app/helpers/templates.php:185
+#: tiempocom/app/helpers/templates.php:224
+#: tiempocom/app/helpers/templates.php:244
+#: tiempocom/app/helpers/templates.php:310
+#: tiempocom/app/helpers/templates.php:343
+#: tiempocom/app/helpers/templates.php:398
+#: tiempocom/app/helpers/templates.php:432
+#: tiempocom/app/helpers/templates.php:508
+#, php-format
+msgid "Weather in %s"
+msgstr "Wetter in %s"
+
+#: tiempocom/app/helpers/templates.php:165
+msgid "Today"
+msgstr "Heute"
+
+#: tiempocom/app/helpers/templates.php:174
+msgid "Max."
+msgstr "Max."
+
+#: tiempocom/app/helpers/templates.php:178
+msgid "Min."
+msgstr "Min."
+
+#: tiempocom/app/helpers/templates.php:388
+#: tiempocom/app/helpers/templates.php:475
+msgid "Humidity"
+msgstr "Feuchtigkeit"
+
+#: tiempocom/app/helpers/templates.php:481
+msgid "Snow"
+msgstr "Schnee"
+
+#~ msgid "Marquee"
+#~ msgstr "Rahmen"
+
+#~ msgid "Add"
+#~ msgstr "Añadir"

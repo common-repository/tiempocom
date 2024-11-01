@@ -1,0 +1,3450 @@
+.tiempocom_widget {
+  margin-bottom: 40px;
+}
+.tiempocom_widget table.widget,
+.tiempocom_widget table table,
+.tiempocom_widget table td,
+.tiempocom_widget table {
+  border: 0px;
+  font-size: inherit;
+  line-height: 24px;
+  margin: inherit;
+  padding: inherit;
+  text-align: center;
+  vertical-align: middle;
+}
+.tiempocom_widget .widget img,
+.tiempocom_widget img,
+.tiempocom_widget #webwid img {
+  border-radius: 0px;
+  box-shadow: none;
+}
+.tiempocom_widget .dnone {
+  display: none;
+}
+.tiempocom_widget .dblock {
+  display: block;
+}
+.tiempocom_widget ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.tiempocom_widget dd,
+.tiempocom_widget dl {
+  margin: 0;
+  padding: 0;
+}
+.tiempocom_widget .p-aside {
+  float: right;
+}
+.tiempocom_widget img {
+  border: none;
+}
+.tiempocom_widget .prov-home {
+  width: 98%;
+  float: left;
+  margin: 10px 2px;
+}
+.tiempocom_widget .prov-home h2 {
+  width: 98%;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+  border-bottom: 1px solid #dbe3e8;
+  height: 20px;
+  margin: 15px
+0;
+  padding-left: 7px;
+}
+.tiempocom_widget .prov-home a {
+  width: 31%;
+  float: left;
+  padding: 2px 0 2px 4px;
+}
+.tiempocom_widget .map {
+  text-align: center;
+  width: 100%;
+  float: left;
+}
+.tiempocom_widget .meteog {
+  float: left;
+  width: 100%;
+}
+.tiempocom_widget #oldMap {
+  margin-top: 10px;
+}
+.tiempocom_widget .pMeteo {
+  float: left;
+}
+.tiempocom_widget .actMet {
+  background-color: white;
+  color: black;
+  float: left;
+  padding: 10px;
+  margin: 1px;
+  border-top: 1px solid #DBE3E8;
+  border-right: 1px solid #DBE3E8;
+  border-left: 1px solid #DBE3E8;
+  text-align: center;
+  border-radius: 3px 3px 0 0;
+}
+.tiempocom_widget .pMet {
+  float: left;
+  padding: 10px;
+  margin: 1px;
+  border-top: 1px solid #DBE3E8;
+  border-right: 1px solid #DBE3E8;
+  border-left: 1px solid #DBE3E8;
+  background-color: #e9f3f9;
+  color: #3f7eac;
+  text-align: center;
+  border-radius: 3px 3px 0 0;
+  cursor: pointer;
+}
+.tiempocom_widget #resultados li.res {
+  cursor: pointer;
+  height: 30px;
+}
+.tiempocom_widget #resultados li.separadorA {
+  border-top: 1px #c6c6c6 dotted;
+}
+.tiempocom_widget #resultados li.separadorB {
+  border-top: 1px #336699 dotted;
+}
+.tiempocom_widget #resultados li.nres {
+  border-top: 1px dotted #808080;
+}
+.tiempocom_widget #resultados li.res:hover,
+.tiempocom_widget .resultado_seleccionado {
+  background-color: #e6e6e6;
+}
+.tiempocom_widget #resultados a {
+  margin-left: 5px;
+  text-decoration: none;
+  color: #616161;
+}
+.tiempocom_widget #resultados img {
+  margin: 7px 6px 0 6px;
+}
+.tiempocom_widget #resultados span {
+  float: left;
+  margin: 5px 0 0 5px;
+}
+.tiempocom_widget .l-ar {
+  background: url('/style/imagenes/logo_ar.png') no-repeat;
+  width: 261px;
+}
+.tiempocom_widget .l-bo {
+  background: url('/style/imagenes/logo_bo.png') no-repeat;
+  width: 200px;
+}
+.tiempocom_widget .l-br {
+  background: url('/style/imagenes/logo_br.png') no-repeat;
+  width: 188px;
+}
+.tiempocom_widget .l-ca {
+  background: url('/style/imagenes/logo_ca.png') no-repeat;
+  width: 259px;
+}
+.tiempocom_widget .l-cl {
+  background: url('/style/imagenes/logo_cl.png') no-repeat;
+  width: 213px;
+}
+.tiempocom_widget .l-cr {
+  background: url('/style/imagenes/logo_cr.png') no-repeat;
+  width: 200px;
+}
+.tiempocom_widget .l-de {
+  background: url('/style/imagenes/logo_de.png') no-repeat;
+  width: 200px;
+}
+.tiempocom_widget .l-do {
+  background: url('/style/imagenes/logo_do.png') no-repeat;
+  width: 200px;
+}
+.tiempocom_widget .l-ec {
+  background: url('/style/imagenes/logo_ec.png') no-repeat;
+  width: 200px;
+}
+.tiempocom_widget .l-en {
+  background: url('/style/imagenes/logo_en.png') no-repeat;
+  width: 200px;
+}
+.tiempocom_widget .l-es {
+  background: url('/style/imagenes/logo_es.png') no-repeat;
+  width: 200px;
+}
+.tiempocom_widget .l-eu {
+  background: url('/style/imagenes/logo_eu.png') no-repeat;
+  width: 268px;
+}
+.tiempocom_widget .l-fr {
+  background: url('/style/imagenes/logo_fr.png') no-repeat;
+  width: 200px;
+}
+.tiempocom_widget .l-hn {
+  background: url('/style/imagenes/logo_hn.png') no-repeat;
+  width: 222px;
+}
+.tiempocom_widget .l-it {
+  background: url('/style/imagenes/logo_it.png') no-repeat;
+  width: 200px;
+}
+.tiempocom_widget .l-mx {
+  background: url('/style/imagenes/logo_mx.png') no-repeat;
+  width: 228px;
+}
+.tiempocom_widget .l-pa {
+  background: url('/style/imagenes/logo_pa.png') no-repeat;
+  width: 200px;
+}
+.tiempocom_widget .l-pe {
+  background: url('/style/imagenes/logo_pe.png') no-repeat;
+  width: 200px;
+}
+.tiempocom_widget .l-pt {
+  background: url('/style/imagenes/logo_pt.png') no-repeat;
+  width: 170px;
+}
+.tiempocom_widget .l-py {
+  background: url('/style/imagenes/logo_py.png') no-repeat;
+  width: 200px;
+}
+.tiempocom_widget .l-uy {
+  background: url('/style/imagenes/logo_uy.png') no-repeat;
+  width: 200px;
+}
+.tiempocom_widget .l-ve {
+  background: url('/style/imagenes/logo_ve.png') no-repeat;
+  width: 200px;
+}
+.tiempocom_widget #Leyn {
+  width: 100%;
+  float: left;
+  padding: 10px
+0;
+  position: relative;
+}
+.tiempocom_widget #satelites {
+  width: 98%;
+  float: left;
+  text-align: center;
+}
+.tiempocom_widget .c200 {
+  width: 210px;
+  float: left;
+}
+.tiempocom_widget .c200 h2 {
+  padding-left: 5px;
+}
+.tiempocom_widget .c200 a {
+  display: block;
+  width: 99%;
+  text-align: left;
+}
+.tiempocom_widget .img_satelite {
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.tiempocom_widget .img_satelite figcaption {
+  width: 100%;
+  float: left;
+  padding-top: 10px;
+}
+.tiempocom_widget .img_satelite img {
+  margin: 0 10%;
+}
+.tiempocom_widget .map_sat {
+  max-width: 100%;
+  height: auto;
+}
+.tiempocom_widget .opcMod form {
+  width: 50%;
+  float: left;
+  padding: 3px 0;
+}
+.tiempocom_widget .fModelos {
+  width: 50%;
+  float: left;
+}
+.tiempocom_widget #fuente_sat {
+  float: left;
+  width: 100%;
+  text-align: left;
+  margin: 10px
+5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.tiempocom_widget #fuente_sat a {
+  font-weight: normal;
+  font-size: 14px;
+}
+.tiempocom_widget .img-modelos {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+.tiempocom_widget .opcMod {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.tiempocom_widget .opcMod figure {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.tiempocom_widget #modelos {
+  width: 100%;
+  float: left;
+}
+.tiempocom_widget #modelos span {
+  display: block;
+  padding: 10px
+0;
+  text-align: justify;
+}
+.tiempocom_widget #modelos a {
+  text-decoration: underline;
+}
+.tiempocom_widget .tModelos {
+  width: 100%;
+  border: none;
+}
+.tiempocom_widget .tModelos h2 {
+  border-bottom: 1px solid #dbe3e8;
+  padding: 0
+9px;
+  margin-bottom: 5px;
+}
+.tiempocom_widget #dModelos {
+  width: 98%;
+  margin: 0
+1%;
+  float: left;
+}
+.tiempocom_widget #dModelos table {
+  width: 100%;
+  float: left;
+  margin: 10px 0 30px 0;
+}
+.tiempocom_widget .allMod {
+  float: left;
+  text-align: center;
+  padding: 2px 6px;
+}
+.tiempocom_widget .actMod {
+  float: left;
+  text-align: center;
+  color: white;
+  background-color: #3f7eac;
+  border-radius: 3px;
+  padding: 2px 5px;
+}
+.tiempocom_widget #dModelos h2 {
+  border-bottom: 1px solid #dbe3e8;
+  font-size: 15px;
+  padding: 5px 7px;
+}
+.tiempocom_widget #dModelos p {
+  text-align: justify;
+  color: #616161;
+  margin: 7px 0;
+}
+.tiempocom_widget .cYellow tr {
+  background-color: #ffffcc;
+}
+.tiempocom_widget .cWhite tr {
+  background-color: #ffffff;
+}
+.tiempocom_widget .tdM1 {
+  width: 35%;
+  font-size: 14px;
+}
+.tiempocom_widget .tdM2 {
+  width: 65%;
+  padding: 5px 0;
+}
+.tiempocom_widget .tdM2 a {
+  font-size: 14px;
+}
+.tiempocom_widget .tSubM {
+  width: 100%;
+  border-collapse: collapse;
+}
+.tiempocom_widget .tSubM td {
+  width: 10%;
+  text-align: center;
+}
+.tiempocom_widget #mod_cont {
+  width: 98%;
+  margin: 0
+1%;
+  float: left;
+}
+.tiempocom_widget abbr {
+  border: none;
+}
+.tiempocom_widget .sOther {
+  width: 100%;
+  font-size: 15px;
+  float: left;
+  color: #6b6b6b;
+}
+.tiempocom_widget .ulOther {
+  padding: 0
+0 20px 0;
+  margin: 0;
+  float: left;
+  width: 100%;
+}
+.tiempocom_widget .ulOther li {
+  float: left;
+  width: 33%;
+  color: #719cce;
+  cursor: pointer;
+  padding: 4px 0;
+}
+.tiempocom_widget .eHotel {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.tiempocom_widget .h3Home {
+  font-size: 14px;
+  padding: 10px
+0 5px 5px;
+  float: left;
+  width: 97%;
+}
+.tiempocom_widget .vidram {
+  width: 100%;
+  float: left;
+}
+.tiempocom_widget .h3Alert {
+  width: 99%;
+  float: left;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.tiempocom_widget .d-act {
+  display: none;
+}
+.tiempocom_widget .pmovil span {
+  display: block;
+  width: 100%;
+  float: left;
+  padding: 5px 0;
+}
+.tiempocom_widget .pmovil table {
+  width: 100%;
+  float: left;
+}
+.tiempocom_widget .pmovil a {
+  display: block;
+  width: 100%;
+  float: left;
+  padding: 20px
+0;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.tiempocom_widget .pmovil figure {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.tiempocom_widget .pmovil img {
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+}
+.tiempocom_widget .distImg {
+  max-width: 413px !important;
+  width: 100%;
+  height: auto;
+}
+.tiempocom_widget .mpred {
+  width: 95%;
+  float: left;
+}
+.tiempocom_widget .widAnd {
+  width: 100%;
+}
+.tiempocom_widget .widAnd img {
+  margin: 0 30%;
+}
+.tiempocom_widget .mapRep {
+  width: 100% !important;
+  float: left !important;
+  text-align: center;
+}
+.tiempocom_widget .linkRep {
+  width: 100%;
+  text-align: center;
+  float: left;
+  font-weight: bold;
+}
+.tiempocom_widget .narBlue {
+  color: #719cce;
+  cursor: pointer;
+}
+@media only screen and (min-width: 769px) {
+  .tiempocom_widget body {
+    margin: auto;
+    font-size: 14px;
+    font-weight: normal;
+    color: #3c3c3c;
+    font-family: Helvetica;
+  }
+  .tiempocom_widget #wrap {
+    width: 990px;
+  }
+  .tiempocom_widget .sprite {
+    background: url("/style/imagenes/sprite-pc.png") no-repeat;
+  }
+  .tiempocom_widget header {
+    margin: auto;
+    width: 990px;
+  }
+  .tiempocom_widget .tiempo {
+    display: block;
+    height: 50px;
+    float: left;
+  }
+  .tiempocom_widget nav {
+    display: block;
+    float: right;
+    position: relative;
+  }
+  .tiempocom_widget nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 4px
+  0 0 0;
+    font-size: 15px;
+    cursor: pointer;
+    float: left;
+  }
+  .tiempocom_widget nav ul li.ini {
+    float: left;
+    color: white;
+    padding: 3px;
+    margin: 7px
+  1px;
+    background-color: #3f7eac;
+    border-radius: 3px;
+  }
+  .tiempocom_widget #h1I {
+    padding: 0;
+    border-bottom: 0;
+    width: 80px;
+    margin: 0;
+    font-size: 15px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+  }
+  .tiempocom_widget .h1-ini {
+    border-bottom: 0;
+    width: 83px;
+    padding: 3px
+  5px;
+    margin: 0;
+    font-size: 15px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+  }
+  .tiempocom_widget .h1-ini a {
+    color: white;
+    font-weight: normal;
+  }
+  .tiempocom_widget nav ul li {
+    padding: 15px
+  0;
+    color: #3f7eac;
+    float: left;
+  }
+  .tiempocom_widget .mp {
+    color: #719cce;
+  }
+  .tiempocom_widget nav ul li h2 {
+    float: left;
+    font-weight: bold;
+    text-align: center;
+    width: 75px;
+    height: 20px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    font-size: 15px;
+  }
+  .tiempocom_widget nav ul li a {
+    font-weight: bold;
+  }
+  .tiempocom_widget .Ah2 {
+    width: 80px !important;
+  }
+  .tiempocom_widget .hAlert {
+    *float: left !important;
+  }
+  .tiempocom_widget .hNum {
+    *float: right !important;
+  }
+  .tiempocom_widget li.alert {
+    width: 70px;
+    padding-right: 0;
+  }
+  .tiempocom_widget .num {
+    display: block;
+    width: 16px;
+    height: 13px;
+    border: 1px
+  solid #dd664e;
+    font-size: 10px;
+    border-radius: 2px;
+    text-align: center;
+    background-color: #dd664e;
+    color: #fff;
+    margin-right: 10px;
+    float: right;
+  }
+  .tiempocom_widget li.alert span {
+    display: block;
+    text-align: center;
+    float: left;
+  }
+  .tiempocom_widget .yahoo {
+    float: right;
+    margin: 20px
+  0 0 0;
+    width: 64px;
+  }
+  .tiempocom_widget .other {
+    display: none;
+  }
+  .tiempocom_widget .other-pc {
+    background-position: -1496px -343px;
+    padding: 0;
+    width: 35px;
+    height: 40px;
+  }
+  .tiempocom_widget .other-mv {
+    display: none;
+  }
+  .tiempocom_widget header aside {
+    width: 100%;
+    float: left;
+    background-color: #ddecf6;
+    border-radius: 3px;
+    margin: 0;
+    position: relative;
+  }
+  .tiempocom_widget header aside h1 {
+    display: none;
+  }
+  .tiempocom_widget .buscador {
+    background-position: 0 0;
+    height: 42px;
+    width: 304px;
+    border: none;
+    margin: 9px
+  6px;
+    float: left;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 11pt;
+    color: #999;
+    padding-left: 9px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget #cookies {
+    float: right;
+    margin: 8px
+  0;
+    padding: 0;
+  }
+  .tiempocom_widget #cookies td.tl {
+    width: 160px;
+    text-align: center;
+    display: none;
+    border-right: 1px solid #c5d5df;
+    top: 10px;
+  }
+  .tiempocom_widget #cookies td.tl .loc {
+    display: block;
+    font-size: 15px;
+    color: #6b6b6b;
+    position: absolute;
+    top: 10px;
+    width: 108px;
+  }
+  .tiempocom_widget .c1 {
+    right: 484px;
+  }
+  .tiempocom_widget .c2 {
+    right: 323px;
+  }
+  .tiempocom_widget .c3 {
+    right: 161px;
+  }
+  .tiempocom_widget .c4 {
+    right: 1px;
+  }
+  .tiempocom_widget #cookies img {
+    float: left;
+    width: 45px;
+    border: 0;
+    margin-left: 5px;
+  }
+  .tiempocom_widget #cookies td.tl:first-child + td + td + td {
+    border-right: none;
+  }
+  .tiempocom_widget .ctemp {
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  .tiempocom_widget .max {
+    color: #fe2e2e;
+  }
+  .tiempocom_widget .min {
+    color: #3276ab;
+    margin-left: 7px;
+  }
+  .tiempocom_widget #resultados {
+    margin: 55px
+  0 0 10px;
+    font-size: 15px;
+    background-color: white;
+    border: #369 1px solid;
+    position: absolute;
+    z-index: 2;
+    display: none;
+    padding: 5px;
+    clear: both;
+  }
+  .tiempocom_widget main {
+    clear: both;
+    float: left;
+    width: 665px;
+    position: relative;
+  }
+  .tiempocom_widget h1 {
+    font-size: 18px;
+    color: #3C3C3C;
+    border-bottom: 1px solid #dbe3e8;
+    padding: 3px
+  12px;
+    margin: 10px
+  0 12px 0;
+    width: 551px;
+    float: left;
+  }
+  .tiempocom_widget h3 {
+    color: #3c3c3c;
+    border-bottom: 1px solid #d6e1ec;
+    padding-left: 5px;
+  }
+  .tiempocom_widget a {
+    color: #719cce;
+    text-decoration: none;
+  }
+  .tiempocom_widget .h2_cabecera {
+    float: left;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    font-weight: normal;
+    font-size: 14px;
+  }
+  .tiempocom_widget .top {
+    color: #2f76ad;
+    background-color: #ddecf6;
+    border-radius: 5px;
+    padding: 5px
+  0 6px 27px;
+    cursor: pointer;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    width: 60px;
+    background-position: -1242px 9px;
+    position: absolute;
+    top: 2px;
+    right: 1px;
+  }
+  .tiempocom_widget ul.ul_top {
+    display: none;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 15px
+  0 15px 5px;
+    position: absolute;
+    z-index: 10;
+    top: 45px;
+    font-size: 13px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px
+  solid #ddecf6;
+    box-shadow: 3px 3px 3px #ddecf6;
+  }
+  .tiempocom_widget ul.ul_top li {
+    padding: 0
+  0 0 8px;
+    width: 32%;
+    float: left;
+    height: 30px;
+  }
+  .tiempocom_widget ul.ul_top li a {
+    color: #719cce;
+    text-decoration: none;
+  }
+  .tiempocom_widget ul.ul_top li.close {
+    background-position: -1px -1002px;
+    position: absolute;
+    right: 0%;
+    top: 2%;
+    width: 4%;
+    cursor: pointer;
+  }
+  .tiempocom_widget ul.ul_top li.mas-loc {
+    float: right;
+  }
+  .tiempocom_widget ul.ul_top li.mas-loc a {
+    color: #2F76AD;
+    font-weight: bold;
+  }
+  .tiempocom_widget .ul_top_s {
+    width: 100%;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 20px
+  0 15px 5px;
+    font-size: 13px;
+  }
+  .tiempocom_widget .ul_top_s li {
+    padding: 0
+  0 0 8px;
+    width: 32%;
+    float: left;
+    height: 30px;
+  }
+  .tiempocom_widget ul.gota {
+    width: 100%;
+    float: left;
+    margin-bottom: 5px;
+  }
+  .tiempocom_widget ul.gota li:first-child {
+    float: left;
+  }
+  .tiempocom_widget ul.gota li {
+    float: left;
+    padding-left: 5px;
+  }
+  .tiempocom_widget .js body {
+    visibility: hidden;
+  }
+  .tiempocom_widget .dias {
+    width: 665px;
+    float: left;
+    overflow: hidden !important;
+    position: relative;
+  }
+  .tiempocom_widget ul.dia {
+    width: 1350px;
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .tiempocom_widget ul.dia li {
+    width: 86px;
+    color: #3f7eac;
+    font-size: 11px;
+    text-align: center;
+    float: left;
+    border: 1px
+  solid #dae9f3;
+    padding: 5px
+  0;
+    margin: 1px;
+    background-color: #eaf3f9;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  .tiempocom_widget ul.dia li.activa {
+    background-color: #ffffff;
+  }
+  .tiempocom_widget ul.dia li.lif {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    float: left;
+    border: 1px
+  solid #dae9f3;
+    background-color: #fbf9d2;
+    cursor: pointer;
+  }
+  .tiempocom_widget .fmder {
+    background-position: -998px 10px;
+  }
+  .tiempocom_widget .fmizq {
+    background-position: -1755px -1243px;
+  }
+  .tiempocom_widget ul.dia li strong {
+    display: block;
+    width: 100%;
+    font-size: 12px;
+  }
+  .tiempocom_widget #sdia {
+    display: none;
+  }
+  .tiempocom_widget #dMov,
+  .tiempocom_widget #dMovN {
+    display: none;
+  }
+  .tiempocom_widget .twit,
+  .tiempocom_widget .gplus,
+  .tiempocom_widget .face {
+    width: 14%;
+    float: right;
+  }
+  .tiempocom_widget #leyenda {
+    display: block;
+    background-color: #dfebf7;
+    border-radius: 5px;
+    padding: 5px
+  12px;
+    color: #719cce;
+    cursor: pointer;
+    font-weight: bold;
+    float: left;
+  }
+  .tiempocom_widget .dLeyenda {
+    display: none;
+    width: 90%;
+    border: 1px
+  solid #719cce;
+    border-radius: 5px;
+    position: absolute;
+    padding: 10px;
+    z-index: 1;
+    background-color: white;
+    top: -395px;
+    left: 5%;
+  }
+  .tiempocom_widget .dLeyenda thead {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .tiempocom_widget .cLeyenda {
+    background-position: -1px -999px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }
+  .tiempocom_widget .dLeyenda figure {
+    margin: 0;
+    padding: 0;
+  }
+  .tiempocom_widget .dLeyenda img {
+    width: auto;
+    float: left;
+  }
+  .tiempocom_widget .dLeyenda figcaption {
+    width: 250px;
+    float: left;
+    padding: 5px 0 0 8px;
+  }
+  .tiempocom_widget aside {
+    float: right;
+    width: 305px;
+    margin-top: 10px;
+  }
+  .tiempocom_widget aside h1 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 10px;
+    border: none;
+  }
+  .tiempocom_widget aside h3 {
+    margin-bottom: 10px;
+  }
+  .tiempocom_widget .wdget {
+    display: block;
+    float: left;
+    width: 90px;
+    height: 70px;
+    background-position: -485px 1px;
+  }
+  .tiempocom_widget aside ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+  }
+  .tiempocom_widget aside ul li {
+    margin: 5px 0 5px 10px;
+  }
+  .tiempocom_widget .nar {
+    display: block;
+    float: left;
+    height: 15px;
+    background-position: -1499px 4px;
+    padding-left: 10px;
+    margin-left: 0;
+  }
+  .tiempocom_widget .tFree {
+    float: left;
+    margin-top: 10px;
+  }
+  .tiempocom_widget footer {
+    float: left;
+    width: 100%;
+    margin-top: 100px;
+    background-color: #dfebf7;
+    padding-bottom: 0px;
+    border-radius: 3px;
+  }
+  .tiempocom_widget footer h1 {
+    font-size: 12px;
+    margin: 5px
+  0;
+    border: none;
+  }
+  .tiempocom_widget .ban {
+    width: 250px;
+    float: left;
+    position: relative;
+  }
+  .tiempocom_widget .b-activa {
+    float: left;
+    margin-left: 25px;
+    font-size: 13px;
+    background-position: 1px -1528px;
+    width: 200px;
+    height: 30px;
+  }
+  .tiempocom_widget .b-ar {
+    background-position: -243px -1950px;
+    width: 140px;
+    height: 30px;
+    padding-left: 30px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-bo {
+    background-position: -1716px -1952px;
+    width: 140px;
+    height: 30px;
+    padding-left: 30px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-br {
+    background-position: -494px -1950px;
+    width: 140px;
+    height: 30px;
+    padding-left: 30px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-cl {
+    background-position: -1497px -1247px;
+    width: 140px;
+    height: 30px;
+    padding-left: 35px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-ca {
+    background-position: -747px -1749px;
+    width: 140px;
+    height: 30px;
+    padding-left: 35px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-cr {
+    background-position: -986px -1843px;
+    width: 140px;
+    height: 30px;
+    padding-left: 30px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-de {
+    background-position: -496px -1245px;
+    width: 140px;
+    height: 30px;
+    padding-left: 30px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-do {
+    background-position: -1924px -1952px;
+    width: 140px;
+    height: 30px;
+    padding-left: 30px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-ec {
+    background-position: -494px -1844px;
+    width: 140px;
+    height: 30px;
+    padding-left: 30px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-en {
+    background-position: -246px -1245px;
+    width: 140px;
+    height: 30px;
+    padding-left: 30px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-es {
+    background-position: 4px -1245px;
+    width: 140px;
+    height: 30px;
+    padding-left: 30px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-eu {
+    background-position: -1239px -1753px;
+    width: 140px;
+    height: 30px;
+    padding-left: 35px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-fr {
+    background-position: -748px -1245px;
+    width: 140px;
+    height: 30px;
+    padding-left: 30px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-hn {
+    background-position: -496px -1748px;
+    width: 140px;
+    height: 30px;
+    padding-left: 35px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-it {
+    background-position: -997px -1245px;
+    width: 140px;
+    height: 30px;
+    padding-left: 30px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-mx {
+    background-position: -2px -1950px;
+    width: 140px;
+    height: 30px;
+    padding-left: 30px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-pa {
+    background-position: -746px -1951px;
+    width: 140px;
+    height: 30px;
+    padding-left: 30px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-pe {
+    background-position: -1248px -1951px;
+    width: 140px;
+    height: 30px;
+    padding-left: 30px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-pt {
+    background-position: -1246px -1245px;
+    width: 140px;
+    height: 30px;
+    padding-left: 30px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-py {
+    background-position: -986px -1950px;
+    width: 140px;
+    height: 30px;
+    padding-left: 30px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-uy {
+    background-position: -1493px -1952px;
+    width: 140px;
+    height: 30px;
+    padding-left: 30px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-ve {
+    background-position: -752px -1844px;
+    width: 140px;
+    height: 30px;
+    padding-left: 30px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget #idiomas {
+    display: none;
+    position: absolute;
+    bottom: 30px;
+    left: 28px;
+    background-color: white;
+    border: 1px
+  solid #c7d8e6;
+    border-radius: 3px;
+  }
+  .tiempocom_widget .fdroider {
+    float: left;
+    width: 120px;
+    height: 45px;
+    background-position: 1px -248px;
+    padding-left: 50px;
+    padding-top: 7px;
+    border-right: 1px solid #c7d8e6;
+    margin: 15px 0;
+  }
+  .tiempocom_widget .fdroider span {
+    font-size: 11px;
+    font-weight: bold;
+    display: block;
+    padding: 2px 0;
+  }
+  .tiempocom_widget .fdroider a {
+    font-size: 13px;
+  }
+  .tiempocom_widget .fios {
+    float: left;
+    width: 110px;
+    height: 45px;
+    background-position: -490px -248px;
+    padding-left: 60px;
+    padding-top: 7px;
+    border-right: 1px solid #c7d8e6;
+    margin: 15px 0;
+  }
+  .tiempocom_widget .fios span {
+    font-size: 11px;
+    font-weight: bold;
+    display: block;
+    padding: 2px 0;
+  }
+  .tiempocom_widget .fios a {
+    font-size: 13px;
+  }
+  .tiempocom_widget .fwd {
+    float: left;
+    width: 125px;
+    height: 45px;
+    background-position: -990px -247px;
+    padding-left: 60px;
+    padding-top: 7px;
+    margin: 15px 0;
+  }
+  .tiempocom_widget .fwd span {
+    font-size: 11px;
+    font-weight: bold;
+    display: block;
+    padding: 2px 0;
+  }
+  .tiempocom_widget .fwd a {
+    font-size: 13px;
+  }
+  .tiempocom_widget .alpred {
+    width: 130px;
+    float: right;
+    text-align: right;
+    margin: 18px
+  10px 15px 0;
+    color: #719cce;
+    font-size: 12px;
+  }
+  .tiempocom_widget #p-izq {
+    position: fixed;
+    margin-left: -125px;
+    top: 115px;
+    *margin-left: -830px !important;
+  }
+  .tiempocom_widget #p-izq2 {
+    position: fixed;
+    margin-left: -165px;
+    top: 115px;
+    *margin-left: -830px !important;
+  }
+  .tiempocom_widget #p-sup {
+    text-align: center;
+  }
+  .tiempocom_widget #p-aside,
+  .tiempocom_widget #p-aside2 {
+    width: 100%;
+    margin-top: 11px;
+    float: left;
+    text-align: center;
+  }
+  .tiempocom_widget .der div {
+    float: left;
+  }
+  .tiempocom_widget .ot-sec {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 1px;
+    border: 1px
+  solid;
+    border-radius: 5px;
+    z-index: 1;
+    background-color: white;
+    width: 200px;
+    height: 59px;
+  }
+  .tiempocom_widget .ot-sec a:first-child {
+    display: block;
+    padding: 0
+  6px 10px 6px;
+    border-bottom: 1px solid;
+  }
+  .tiempocom_widget .ot-sec a:first-child + a {
+    display: block;
+    padding: 13px 6px 0 5px;
+  }
+  .tiempocom_widget .candaoc {
+    float: left;
+    background-position: -1000px -1498px;
+    position: absolute;
+    width: 13px;
+    height: 17px;
+    top: 45px;
+  }
+  .tiempocom_widget .candaoa {
+    float: left;
+    background-position: -1250px -1500px;
+    position: absolute;
+    width: 13px;
+    height: 17px;
+    top: 45px;
+  }
+  .tiempocom_widget .aspa {
+    float: left;
+    background-position: -1498px -1500px;
+    position: absolute;
+    width: 30px;
+    height: 17px;
+    margin: 4px
+  0 0 10px;
+    top: 45px;
+  }
+  .tiempocom_widget .hidcook {
+    display: none !important;
+  }
+  .tiempocom_widget #cookies td {
+    cursor: pointer;
+  }
+  .tiempocom_widget .t-world {
+    width: 100%;
+    float: left;
+  }
+  .tiempocom_widget #mWid {
+    width: 990px;
+  }
+  .tiempocom_widget #mWid h1 {
+    width: 960px;
+  }
+  .tiempocom_widget .vidram li,
+  .tiempocom_widget .vidram li + li {
+    width: 48%;
+    float: left;
+    color: #666;
+    text-align: justify;
+    margin: 5px
+  13px 0 0;
+    font-size: 13px;
+  }
+  .tiempocom_widget .vidram li:first-child + li,
+  .tiempocom_widget .vidram li:first-child + li + li + li {
+    width: 48%;
+    float: right;
+    color: #666;
+    text-align: justify;
+    margin: 5px
+  13px 0 0;
+    font-size: 13px;
+  }
+  .tiempocom_widget .vidram li a {
+    display: block;
+    margin-bottom: 7px;
+    font-size: 14px;
+    height: 33px;
+  }
+  .tiempocom_widget .video {
+    width: 100%;
+    float: left;
+  }
+  .tiempocom_widget .v1 {
+    width: 50%;
+    float: left;
+  }
+  .tiempocom_widget .v2 {
+    width: 47%;
+    float: left;
+    padding-bottom: 8px;
+  }
+  .tiempocom_widget .v1 a {
+    display: block;
+  }
+  .tiempocom_widget .v1 img {
+    width: 300px;
+  }
+  .tiempocom_widget .v1 span {
+    width: 65%;
+    float: left;
+    color: #c6c6c6;
+    font-size: 10px;
+  }
+  .tiempocom_widget .v1 abbr {
+    display: block;
+    padding: 5px 0;
+  }
+  .tiempocom_widget .v2 img {
+    width: 30%;
+    float: left;
+  }
+  .tiempocom_widget .v2 abbr {
+    width: 65%;
+    float: left;
+    padding: 20px 0 5px 4%;
+  }
+  .tiempocom_widget .v2 span {
+    width: 65%;
+    float: left;
+    padding-left: 4%;
+    color: #c6c6c6;
+    font-size: 10px;
+  }
+  .tiempocom_widget .v3 {
+    width: 47%;
+    float: left;
+    padding: 7px 0;
+  }
+  .tiempocom_widget .alerts {
+    float: left;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #dbe3e8;
+    margin: 0 0 10px 0;
+  }
+  .tiempocom_widget .descrip-alert {
+    width: 100%;
+    text-align: center;
+    background-color: #e9f3f9;
+    margin: 5px
+  0;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .tiempocom_widget .descrip-alert td:first-child {
+    padding: 8px
+  0;
+    width: 55px;
+  }
+  .tiempocom_widget .descrip-alert td:first-child + td,
+  .tiempocom_widget .descrip-alert td:first-child + td + td {
+    padding: 8px
+  0;
+    width: 65px;
+  }
+  .tiempocom_widget .descrip-alert td:first-child + td + td + td,
+  .tiempocom_widget .descrip-alert td:first-child + td + td + td + td {
+    width: 240px;
+  }
+  .tiempocom_widget .IniFin {
+    width: 60px;
+    font-size: 13px;
+    text-align: center;
+    border-bottom: 1px solid #dbe3e8;
+  }
+  .tiempocom_widget .AmbFen {
+    border-bottom: 1px solid #dbe3e8;
+  }
+  .tiempocom_widget .fenom {
+    border-bottom: 1px solid #dbe3e8;
+    text-align: left;
+  }
+  .tiempocom_widget .alerts td strong {
+    display: none;
+  }
+  .tiempocom_widget .r-0 {
+    width: 55px;
+    height: 40px;
+    float: left;
+    background-position: -1480px -991px;
+    border-bottom: 1px solid #dbe3e8;
+  }
+  .tiempocom_widget .r-1 {
+    width: 55px;
+    height: 40px;
+    float: left;
+    background-position: -1732px -991px;
+    border-bottom: 1px solid #dbe3e8;
+  }
+  .tiempocom_widget .r-2 {
+    width: 55px;
+    height: 40px;
+    float: left;
+    background-position: -1232px -991px;
+    border-bottom: 1px solid #dbe3e8;
+  }
+  .tiempocom_widget .r-3 {
+    width: 55px;
+    height: 40px;
+    float: left;
+    background-position: -980px -991px;
+    border-bottom: 1px solid #dbe3e8;
+  }
+  .tiempocom_widget .pmovil {
+    width: 100%;
+    float: left;
+    text-align: justify;
+    line-height: 18px;
+    color: #616161;
+  }
+  .tiempocom_widget .pmovil h3 {
+    width: 99%;
+    float: left;
+    padding-top: 25px;
+  }
+  .tiempocom_widget .pmovil h4 {
+    width: 90%;
+    float: left;
+    padding-left: 5%;
+    font-size: 20px;
+    margin: 10px 0 !important;
+  }
+  .tiempocom_widget #otherTemp {
+    width: 100%;
+    float: left;
+    text-align: justify;
+    line-height: 18px;
+  }
+  .tiempocom_widget #otherTemp span {
+    display: block;
+    width: 100%;
+    float: left;
+    padding: 5px 0;
+  }
+  .tiempocom_widget .carTen {
+    width: 60% !important;
+    padding: 0 !important;
+  }
+  .tiempocom_widget #otherTemp figure {
+    width: 34%;
+    float: right;
+    margin: 3px
+  0 0 0;
+    padding: 0;
+  }
+  .tiempocom_widget .Fcadiz {
+    width: 40% !important;
+    float: left !important;
+    margin-top: 30px !important;
+  }
+  .tiempocom_widget #otherTemp h3 {
+    width: 99%;
+    float: left;
+    padding-top: 15px;
+  }
+  .tiempocom_widget #otherTemp ul {
+    list-style-type: circle;
+    float: left;
+    width: 95%;
+    padding-left: 5%;
+  }
+  .tiempocom_widget #otherTemp ul li {
+    list-style-type: circle;
+  }
+  .tiempocom_widget .Fsev {
+    width: 40% !important;
+    float: left !important;
+    margin-top: 20px !important;
+  }
+  .tiempocom_widget .carTens {
+    width: 60% !important;
+    padding: 18px 0 0 0 !important;
+  }
+  .tiempocom_widget .semSant {
+    width: 57% !important;
+    padding: 15px 0 0 0 !important;
+  }
+  .tiempocom_widget .sSant {
+    width: 40% !important;
+    margin: 15px 0 0 0 !important;
+  }
+  .tiempocom_widget .semS {
+    padding: 20px 0 15px 0 !important;
+  }
+  .tiempocom_widget .mode_a {
+    width: 46%;
+    float: left;
+    display: block;
+    padding: 10px
+  0 10px 15px;
+    font-size: 18px;
+    background-position: -1499px 17px;
+  }
+}
+@media only screen and (max-width: 769px) {
+  .tiempocom_widget body {
+    width: auto;
+    font-family: Helvetica;
+    font-size: 14px;
+    color: #3c3c3c;
+    margin: 0;
+    padding: 0;
+  }
+  .tiempocom_widget #wrap {
+    width: auto;
+  }
+  .tiempocom_widget .sprite {
+    background: url("/style/imagenes/sprite-mv.png") no-repeat;
+  }
+  .tiempocom_widget .tiempo {
+    display: block;
+    height: 50px;
+    float: left;
+    margin: 0 2px;
+  }
+  .tiempocom_widget header nav {
+    display: block;
+    float: left;
+    width: 100%;
+    position: relative;
+  }
+  .tiempocom_widget nav ul {
+    list-style: none;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .tiempocom_widget .nav-sup {
+    display: none;
+  }
+  .tiempocom_widget .nav-sup a {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .tiempocom_widget nav ul li {
+    width: 100%;
+    float: left;
+    color: #3f7eac;
+    padding: 0;
+    margin: 0;
+    border-bottom: 2px solid #ffffff;
+  }
+  .tiempocom_widget nav ul li.ini {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+    color: white;
+    background-color: #3f7eac;
+    border: none;
+  }
+  .tiempocom_widget nav ul li.ini h1 {
+    padding: 10px
+  0 10px 10px;
+    margin: 0;
+    font-weight: normal;
+    color: white;
+    border: none;
+  }
+  .tiempocom_widget nav ul li h2 {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #eff5fb;
+    padding: 10px
+  0 10px 10px;
+    margin: 0;
+  }
+  .tiempocom_widget nav ul li a {
+    color: #3f7eac;
+    font-weight: bold;
+  }
+  .tiempocom_widget .hAlert {
+    width: 45px !important;
+    float: left;
+  }
+  .tiempocom_widget .num {
+    height: 13px;
+    border: 1px
+  solid #dd664e;
+    font-size: 10px;
+    border-radius: 2px;
+    text-align: center;
+    background-color: #dd664e;
+    color: #fff;
+    margin-left: 5px;
+    padding: 1px 3px;
+  }
+  .tiempocom_widget .other {
+    width: 39px;
+    height: 36px;
+    position: absolute;
+    top: -40px;
+    right: 8px;
+    background-position: -748px 0px;
+  }
+  .tiempocom_widget .other-pc {
+    display: none;
+  }
+  .tiempocom_widget #h1I {
+    padding: 10px
+  0 10px 10px;
+    margin: 0;
+    border-bottom: 0;
+    width: 97%;
+    font-size: 14px;
+    font-weight: normal;
+    color: #3f7eac;
+    background-color: #eff5fb;
+  }
+  .tiempocom_widget .h1-ini {
+    border-bottom: 0;
+    padding: 10px
+  0 10px 10px;
+    margin: 0;
+    font-size: 15px;
+    font-weight: normal;
+    color: white;
+    background-color: #3f7eac;
+    border-bottom: 2px solid #ffffff;
+  }
+  .tiempocom_widget .h1-ini a {
+    color: white;
+    font-weight: normal;
+  }
+  .tiempocom_widget li.alert {
+    width: 70px;
+    padding-right: 0;
+  }
+  .tiempocom_widget li.alert span.num {
+    display: block;
+    width: 16px;
+    height: 13px;
+    border: 1px
+  solid #dd664e;
+    font-size: 10px;
+    border-radius: 2px;
+    text-align: center;
+    background-color: #dd664e;
+    color: #fff;
+    margin-right: 3px;
+    float: right;
+  }
+  .tiempocom_widget li.alert span {
+    display: block;
+    text-align: center;
+    float: left;
+  }
+  .tiempocom_widget .yahoo {
+    float: right;
+    margin: 20px
+  0 0 0;
+    width: 64px;
+  }
+  .tiempocom_widget header aside {
+    width: 99%;
+    float: left;
+    overflow: hidden;
+    height: 110px;
+    margin: 0 2px;
+  }
+  .tiempocom_widget .b-loc {
+    display: none;
+  }
+  .tiempocom_widget .buscador {
+    width: 95%;
+    background-position: -1354px -496px;
+    border: 2px
+  solid #91bed3;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 3px #bedfee;
+    padding: 9px
+  0px 9px 7px;
+    margin: 10px 0 10px 2px;
+  }
+  .tiempocom_widget #cookies {
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  .tiempocom_widget #cookies tr {
+    float: left;
+    background-color: #eff5fb;
+  }
+  .tiempocom_widget .icon {
+    width: 20%;
+    float: left;
+    border-bottom: 2px solid #ffffff;
+  }
+  .tiempocom_widget .icon img {
+    width: 45px;
+  }
+  .tiempocom_widget #cookies td.tl {
+    width: 100%;
+    float: right;
+    background-position: 210px -234px;
+    border-bottom: 2px solid white;
+    height: 50px;
+    display: none;
+  }
+  .tiempocom_widget #cookies td.tl .loc {
+    display: block;
+    font-size: 15px;
+    color: #6b6b6b;
+    width: 50% !important;
+    float: left;
+    padding-top: 17px;
+    border-bottom: none;
+  }
+  .tiempocom_widget #cookies img {
+    float: left;
+    width: 50px;
+    border: 0;
+  }
+  .tiempocom_widget #statusOk {
+    background: url('/style/imagenes/fDown.png') no-repeat;
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    bottom: 175px;
+    right: 5px;
+  }
+  .tiempocom_widget #statusKo {
+    background: url('/style/imagenes/fUp.png') no-repeat;
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    bottom: 175px;
+    right: 5px;
+    display: none;
+  }
+  .tiempocom_widget td.tl:first-child + td + td + td {
+    border-bottom: none;
+  }
+  .tiempocom_widget .ctemp {
+    display: block;
+    margin-top: 8px;
+    width: 15%;
+    float: left;
+    margin-left: 2%;
+  }
+  .tiempocom_widget .max {
+    color: #fe2e2e;
+    float: left;
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .tiempocom_widget .min {
+    color: #3276ab;
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .tiempocom_widget #resultados {
+    clear: both;
+    margin: 0
+  0 0 7px;
+    font-size: 15px;
+    background-color: white;
+    border: #369 1px solid;
+    position: absolute;
+    z-index: 2;
+    display: none;
+    padding: 5px;
+  }
+  .tiempocom_widget #resultados a {
+    font-size: 12px;
+  }
+  .tiempocom_widget main {
+    clear: both;
+    float: left;
+    width: 100%;
+    position: relative;
+  }
+  .tiempocom_widget h1 {
+    font-size: 16px;
+    color: #3c3c3c;
+    padding-left: 10px;
+    float: left;
+    width: 74%;
+    border-bottom: 1px solid #d6e1ec;
+    margin-left: 2px;
+  }
+  .tiempocom_widget h3 {
+    color: #3c3c3c;
+    border-bottom: 1px solid #d6e1ec;
+    padding-left: 5px;
+  }
+  .tiempocom_widget a {
+    color: #719cce;
+    text-decoration: none;
+  }
+  .tiempocom_widget .h2_cabecera {
+    float: left;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    font-weight: normal;
+    font-size: 14px;
+  }
+  .tiempocom_widget .top {
+    background-position: -1496px 13px;
+    border-bottom: none;
+    background-color: #ddecf6;
+    border-radius: 5px;
+    padding: 6px
+  0 0 4px;
+    height: 22px;
+    width: 20%;
+    float: left;
+    margin: 4px
+  0 0 0;
+    font-size: 13px;
+    font-weight: bold;
+    color: #2f76ad;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    right: 3px;
+  }
+  .tiempocom_widget ul.ul_top {
+    display: none;
+    width: 95%;
+    list-style: none;
+    margin: 0
+  0 0 3px;
+    padding: 15px
+  0 15px 5px;
+    position: absolute;
+    z-index: 10;
+    top: 45px;
+    font-size: 13px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px
+  solid #ddecf6;
+    box-shadow: 3px 3px 3px #ddecf6;
+  }
+  .tiempocom_widget ul.ul_top li {
+    padding: 0
+  0 0 10px;
+    width: 45%;
+    float: left;
+    height: 30px;
+  }
+  .tiempocom_widget ul.ul_top li a {
+    color: #719cce;
+    text-decoration: none;
+  }
+  .tiempocom_widget ul.ul_top li.close {
+    background-position: -1px -1501px;
+    position: absolute;
+    right: 1%;
+    top: 2%;
+    width: 4%;
+    cursor: pointer;
+  }
+  .tiempocom_widget ul.ul_top li.mas-loc {
+    float: right;
+  }
+  .tiempocom_widget ul.ul_top li.mas-loc a {
+    color: #2F76AD;
+    font-weight: bold;
+  }
+  .tiempocom_widget .nar {
+    background-position: -501px -247px;
+    padding-left: 10px;
+  }
+  .tiempocom_widget .ul_top_s {
+    width: 95%;
+    float: left;
+    list-style: none;
+    margin: 0
+  0 0 3px;
+    padding: 15px
+  0 15px 5px;
+    font-size: 13px;
+  }
+  .tiempocom_widget .ul_top_s li {
+    padding: 0
+  0 0 10px;
+    width: 45%;
+    float: left;
+    height: 30px;
+  }
+  .tiempocom_widget #oldMap {
+    max-width: 100%;
+  }
+  .tiempocom_widget #mWid {
+    width: 100%;
+  }
+  .tiempocom_widget #mWid h1 {
+    width: 96%;
+  }
+  .tiempocom_widget .gota {
+    width: 100%;
+    float: left;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .tiempocom_widget .gota li {
+    float: left;
+  }
+  .tiempocom_widget .sGota,
+  .tiempocom_widget .noMovil {
+    display: none;
+  }
+  .tiempocom_widget .gota li a {
+    padding: 0 1px;
+  }
+  .tiempocom_widget #dias,
+  .tiempocom_widget ul.dia {
+    display: none;
+  }
+  .tiempocom_widget #dMov {
+    width: 100%;
+    float: left;
+    position: relative;
+  }
+  .tiempocom_widget .diasMov {
+    display: block;
+    width: 80%;
+    float: left;
+    text-align: center;
+    padding: 9px
+  0px;
+    margin-left: 5%;
+    border: 1px
+  solid #dae9f3;
+    border-radius: 5px;
+    background-color: #eaf3f9;
+    color: #3f7eac;
+  }
+  .tiempocom_widget .a1 {
+    width: 35px;
+    height: 35px;
+    float: left;
+    border: 1px
+  solid #dae9f3;
+    border-radius: 5px;
+    margin-left: 3px;
+    background-color: #fbf9d2;
+    background-position: -1246px -114px;
+  }
+  .tiempocom_widget #dMovN {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 37px;
+    z-index: 1;
+    background-color: #ffffff;
+  }
+  .tiempocom_widget .dMov {
+    display: block;
+    float: left;
+    width: 78%;
+    border: 1px
+  solid #dae9f3;
+    border-radius: 2px;
+    margin: 2px
+  0 2px 5%;
+    padding: 7px 0 7px 2%;
+  }
+  .tiempocom_widget .camarillo {
+    background-color: #ffffff;
+  }
+  .tiempocom_widget .cyellow {
+    background-color: #fbf9d2;
+  }
+  .tiempocom_widget .gplus {
+    width: 12%;
+    float: right;
+  }
+  .tiempocom_widget .twit {
+    width: 25%;
+    float: right;
+    padding-top: 1px;
+  }
+  .tiempocom_widget .face {
+    width: 25%;
+    float: right;
+  }
+  .tiempocom_widget #leyenda {
+    display: block;
+    background-color: #dfebf7;
+    border-radius: 5px;
+    padding: 5px
+  12px;
+    color: #719cce;
+    cursor: pointer;
+    font-weight: bold;
+    float: left;
+    margin: 0 5px;
+  }
+  .tiempocom_widget .dLeyenda {
+    display: none;
+    width: 100%;
+    border: 1px
+  solid #719cce;
+    border-radius: 5px;
+  }
+  .tiempocom_widget footer {
+    float: left;
+    width: 98%;
+    margin-top: 50px;
+    background-color: #dfebf7;
+    padding-bottom: 15px;
+    border-radius: 3px;
+    margin: 0 1%;
+  }
+  .tiempocom_widget footer h1 {
+    font-size: 12px;
+    margin: 10px
+  0;
+    border: none;
+  }
+  .tiempocom_widget .ban {
+    width: 160px;
+    float: left;
+    position: relative;
+  }
+  .tiempocom_widget .b-activa {
+    float: left;
+    margin-left: 10px;
+    font-size: 13px;
+    background-position: -499px -1500px;
+    width: 140px;
+    height: 30px;
+  }
+  .tiempocom_widget .b-ar {
+    background-position: -1228px -1746px;
+    width: 104px;
+    height: 30px;
+    padding-left: 35px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-bo {
+    background-position: -729px -1805px;
+    width: 104px;
+    height: 30px;
+    padding-left: 35px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-br {
+    background-position: -1490px -1747px;
+    width: 104px;
+    height: 30px;
+    padding-left: 35px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-cl {
+    background-position: -1950px -1814px;
+    width: 104px;
+    height: 30px;
+    padding-left: 35px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-ca {
+    background-position: -489px -1745.5px;
+    width: 104px;
+    height: 30px;
+    padding-left: 35px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-cr {
+    background-position: -1718px -1813px;
+    width: 104px;
+    height: 30px;
+    padding-left: 35px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-de {
+    background-position: -490px -494px;
+    width: 104px;
+    height: 30px;
+    padding-left: 35px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-do {
+    background-position: -992px -1802px;
+    width: 104px;
+    height: 30px;
+    padding-left: 35px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-ec {
+    background-position: -1225px -1804px;
+    width: 104px;
+    height: 30px;
+    padding-left: 35px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-en {
+    background-position: -240px -495px;
+    width: 104px;
+    height: 30px;
+    padding-left: 35px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-es {
+    background-position: 7px -496px;
+    width: 104px;
+    height: 30px;
+    padding-left: 35px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-eu {
+    background-position: -730px -1745.5px;
+    width: 104px;
+    height: 30px;
+    padding-left: 35px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-fr {
+    background-position: -740px -494px;
+    width: 104px;
+    height: 30px;
+    padding-left: 35px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-hn {
+    background-position: 3px -1745px;
+    width: 104px;
+    height: 30px;
+    padding-left: 35px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-it {
+    background-position: -989px -494px;
+    width: 104px;
+    height: 30px;
+    padding-left: 35px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-mx {
+    background-position: -993px -1745px;
+    width: 104px;
+    height: 30px;
+    padding-left: 35px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-pa {
+    background-position: -1715px -1746px;
+    width: 104px;
+    height: 30px;
+    padding-left: 35px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-pe {
+    background-position: -242px -1805.5px;
+    width: 104px;
+    height: 30px;
+    padding-left: 35px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-pt {
+    background-position: -1240px -495px;
+    width: 104px;
+    height: 30px;
+    padding-left: 35px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-py {
+    background-position: -1950px -1748px;
+    width: 104px;
+    height: 30px;
+    padding-left: 35px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-uy {
+    background-position: -487px -1807px;
+    width: 104px;
+    height: 30px;
+    padding-left: 35px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .b-ve {
+    background-position: -1489px -1805px;
+    width: 104px;
+    height: 30px;
+    padding-left: 35px;
+    padding-top: 2px;
+  }
+  .tiempocom_widget .fdroider {
+    float: right;
+    width: 85px;
+    height: 45px;
+    background-position: 1px -819px;
+    padding-left: 45px;
+    padding-top: 8px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .tiempocom_widget .fdroider span {
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .tiempocom_widget .fdroider a {
+    font-size: 11px;
+    width: 100%;
+  }
+  .tiempocom_widget .fios {
+    float: right;
+    width: 85px;
+    height: 45px;
+    background-position: -247px -813px;
+    padding: 12px
+  0 0 40px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .tiempocom_widget .fios span {
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .tiempocom_widget .fios a {
+    font-size: 11px;
+    width: 100%;
+  }
+  .tiempocom_widget .fwd {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-position: -1496px -739px;
+    padding-left: 35px;
+    padding-top: 12px;
+    text-align: center;
+  }
+  .tiempocom_widget .fwd span {
+    display: none;
+  }
+  .tiempocom_widget .fwd a {
+    font-size: 10px;
+    width: 100%;
+  }
+  .tiempocom_widget .alpred {
+    display: none;
+  }
+  .tiempocom_widget #idiomas {
+    display: none;
+    position: absolute;
+    bottom: 35px;
+    left: 10px;
+    background-color: white;
+    border: 1px
+  solid #c7d8e6;
+    border-radius: 3px;
+  }
+  .tiempocom_widget #idiomas a {
+    font-size: 12px;
+  }
+  .tiempocom_widget #pubHead,
+  .tiempocom_widget #pubAside {
+    width: 100% !important;
+    height: auto;
+    float: left;
+    margin: 6px
+  0;
+    text-align: center;
+  }
+  .tiempocom_widget #pubHead-Hidden,
+  .tiempocom_widget #pubAside-Hidden {
+    visibility: hidden;
+    float: left;
+    width: 100%;
+  }
+  .tiempocom_widget .der {
+    display: none;
+  }
+  .tiempocom_widget .vidram li {
+    width: 98%;
+    float: left;
+    color: #666;
+    text-align: justify;
+    margin: 5px
+  0 0 1%;
+    font-size: 13px;
+  }
+  .tiempocom_widget .vidram li a {
+    display: block;
+    margin-bottom: 7px;
+    font-size: 14px;
+  }
+  .tiempocom_widget .video {
+    width: 97%;
+    float: left;
+  }
+  .tiempocom_widget .v1 {
+    width: 100%;
+    float: left;
+  }
+  .tiempocom_widget .v1 a {
+    display: block;
+    float: left;
+    padding-left: 2%;
+  }
+  .tiempocom_widget .v1 img {
+    max-width: 300px;
+    width: auto;
+    height: auto;
+  }
+  .tiempocom_widget .v1 span {
+    width: 100%;
+    float: left;
+    color: #c6c6c6;
+    font-size: 10px;
+  }
+  .tiempocom_widget .v1 abbr {
+    display: block;
+  }
+  .tiempocom_widget .v2 {
+    width: 100%;
+    float: left;
+    padding-bottom: 8px;
+    padding-left: 3%;
+  }
+  .tiempocom_widget .v2 img {
+    width: 30%;
+    float: left;
+  }
+  .tiempocom_widget .v2 abbr {
+    width: 65%;
+    float: left;
+    padding: 20px 0 5px 4%;
+  }
+  .tiempocom_widget .v2 span {
+    width: 65%;
+    float: left;
+    padding-left: 4%;
+    color: #c6c6c6;
+    font-size: 10px;
+  }
+  .tiempocom_widget .v3 {
+    width: 90%;
+    float: left;
+    padding: 7px 0 7px 3%;
+  }
+  .tiempocom_widget .alerts {
+    float: left;
+    width: 99.8%;
+    text-align: center;
+    border-bottom: 1px solid #dbe3e8;
+    margin: 0px 0 20px 1px;
+  }
+  .tiempocom_widget .alerts tr {
+    width: 100%;
+    float: left;
+    padding-top: 15px;
+  }
+  .tiempocom_widget .alerts td:first-child {
+    width: 30%;
+    height: 28px;
+    float: left;
+    border-bottom: 1px solid #dbe3e8;
+    border-top: 1px solid #dbe3e8;
+    background-color: #f5f7fa;
+  }
+  .tiempocom_widget .alerts td:first-child strong {
+    display: block;
+    width: 40%;
+    float: left;
+    padding: 6px
+  0 0 5%;
+    text-align: left;
+  }
+  .tiempocom_widget .IniFin {
+    width: 35%;
+    height: 22px;
+    float: left;
+    font-size: 13px;
+    text-align: left;
+    border-bottom: 1px solid #dbe3e8;
+    border-top: 1px solid #dbe3e8;
+    background-color: #f5f7fa;
+    padding-top: 6px;
+  }
+  .tiempocom_widget .AmbFen,
+  .tiempocom_widget .fenom {
+    width: 99%;
+    float: left;
+    padding: 6px
+  0 0 1%;
+    text-align: left;
+    font-size: 13px;
+  }
+  .tiempocom_widget .alerts thead {
+    display: none;
+  }
+  .tiempocom_widget .r-0 {
+    width: 50%;
+    height: 28px;
+    float: left;
+    background-position: -500px -999px;
+  }
+  .tiempocom_widget .r-1 {
+    width: 50%;
+    height: 28px;
+    float: left;
+    background-position: -730px -999px;
+  }
+  .tiempocom_widget .r-2 {
+    width: 50%;
+    height: 28px;
+    float: left;
+    background-position: -230px -999px;
+  }
+  .tiempocom_widget .r-3 {
+    width: 50%;
+    height: 28px;
+    float: left;
+    background-position: 25px -999px;
+  }
+  .tiempocom_widget .pmovil {
+    width: 98%;
+    margin: 0
+  1%;
+    float: left;
+    text-align: justify;
+    line-height: 18px;
+    color: #616161;
+  }
+  .tiempocom_widget .pmovil h3 {
+    width: 99%;
+    float: left;
+    padding-top: 15px;
+  }
+  .tiempocom_widget .pmovil h4 {
+    width: 90%;
+    float: left;
+    padding-left: 5%;
+    font-size: 12px;
+    margin: 5px
+  0 !important;
+    text-align: center;
+  }
+  .tiempocom_widget .widAnd {
+    width: 100%;
+  }
+  .tiempocom_widget .widAnd img {
+    margin: 0 10%;
+  }
+  .tiempocom_widget #otherTemp {
+    width: 98%;
+    float: left;
+    text-align: justify;
+    line-height: 18px;
+    margin: 0 1%;
+  }
+  .tiempocom_widget #otherTemp span {
+    display: block;
+    width: 100%;
+    float: left;
+    padding: 5px 0;
+  }
+  .tiempocom_widget .carTen {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  .tiempocom_widget #otherTemp figure,
+  .tiempocom_widget .Fcadiz {
+    width: 99%;
+    float: left;
+    margin: 10px
+  0;
+    padding: 0;
+    text-align: center;
+  }
+  .tiempocom_widget #otherTemp h3 {
+    width: 99%;
+    float: left;
+    padding-top: 15px;
+  }
+  .tiempocom_widget #otherTemp ul {
+    list-style-type: circle;
+    float: left;
+    width: 95%;
+    padding-left: 5%;
+  }
+  .tiempocom_widget #otherTemp ul li {
+    list-style-type: circle;
+  }
+  .tiempocom_widget .semS {
+    padding: 20px 0 15px 0 !important;
+  }
+  .tiempocom_widget .mode_a {
+    width: 46%;
+    float: left;
+    display: block;
+    padding: 10px
+  0 10px 15px;
+    font-size: 18px;
+    background-position: -501px -235px;
+  }
+}
+@media only screen and (min-width: 420px) and (max-width: 768px) {
+  .tiempocom_widget #cookies tr {
+    width: 100%;
+  }
+  .tiempocom_widget .icon {
+    width: 10%;
+    float: left;
+    border-bottom: 2px solid #ffffff;
+  }
+  .tiempocom_widget #cookies td.tl {
+    width: 49.5%;
+    float: left;
+    border-bottom: 2px solid white;
+    height: 50px;
+  }
+  .tiempocom_widget #cookies td:nth-child(1),
+  .tiempocom_widget #cookies td:nth-child(3) {
+    border-right: 2px solid #ffffff;
+  }
+  .tiempocom_widget #cookies tr:nth-child(2) td,
+  .tiempocom_widget #cookies tr:nth-child(3) td {
+    border-right: 2px solid #eff5fb;
+  }
+  .tiempocom_widget #statusOk,
+  .tiempocom_widget #statusKo {
+    bottom: 70px;
+  }
+  .tiempocom_widget .h1-ini {
+    padding: 8px 0 8px 10px !important;
+  }
+  .tiempocom_widget nav ul li {
+    width: 49.6% !important;
+    float: left;
+    color: #3f7eac;
+    padding: 0;
+    margin: 0;
+    border-bottom: 3px solid #ffffff !important;
+  }
+  .tiempocom_widget nav ul li:first-child,
+  .tiempocom_widget nav ul li:first-child + li + li,
+  .tiempocom_widget nav ul li:first-child + li + li + li + li,
+  .tiempocom_widget nav ul li:first-child + li + li + li + li + li + li,
+  .tiempocom_widget nav ul li:first-child + li + li + li + li + li + li + li + li {
+    border-right: 3px solid #ffffff;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+  .tiempocom_widget .buscador {
+    width: 98%;
+    background-position: -1270px -496px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 640px) {
+  .tiempocom_widget .buscador {
+    width: 97%;
+    background-position: -1420px -496px;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 480px) {
+  .tiempocom_widget .buscador {
+    background-position: -1580px -496px;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 360px) {
+  .tiempocom_widget .buscador {
+    background-position: -1690px -496px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .tiempocom_widget .buscador {
+    background-position: -1715px -496px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .tiempocom_widget .tdM1 {
+    width: 100%;
+    float: left;
+    padding: 10px
+  2px 10px 0;
+    font-weight: bold;
+    text-align: justify;
+  }
+  .tiempocom_widget .tdM2 {
+    width: 100%;
+    float: left;
+  }
+  .tiempocom_widget .opcMod form {
+    width: 65%;
+    float: left;
+    padding: 3px 0;
+  }
+  .tiempocom_widget .fModelos {
+    width: 30%;
+    float: left;
+  }
+  .tiempocom_widget .opcMod select {
+    width: 150px;
+  }
+  .tiempocom_widget .opcMod input {
+    padding: 1px 3px;
+  }
+}
+.tiempocom_widget #masLoc {
+  width: 94% !important;
+  height: 20px !important;
+  text-align: right;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: underline;
+  padding: 0;
+  cursor: pointer;
+  color: #719cce;
+}
+.tiempocom_widget #mLoc {
+  width: 100%;
+  float: left;
+}
+.tiempocom_widget #mLoc li {
+  width: 32%;
+  float: left;
+  padding: 3px;
+}
+.tiempocom_widget .inicioLoc {
+  width: 95% !important;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 1px dashed #999;
+  padding: 0
+0 5px 4% !important;
+  margin: 10px 0;
+}
+.tiempocom_widget #next_back {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin: 15px
+0;
+  font-size: 18px;
+}
+.tiempocom_widget #backLoc {
+  padding-right: 20px;
+}
+.tiempocom_widget .bred {
+  background-color: #dd664e;
+  border: #dd664e;
+}
+.tiempocom_widget .borange {
+  background-color: #ffaf4d;
+  border: #ffaf4d;
+}
+.tiempocom_widget .byellow {
+  background-color: #ffeb2b;
+  border: #ffeb2b;
+  color: #3f7eac;
+}
+.tiempocom_widget #wrap {
+  background-color: #fff;
+  margin: 0 auto;
+}
+.tiempocom_widget .clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.tiempocom_widget .clearfix {
+  display: inline-block;
+}
+.tiempocom_widget .clearfix {
+  display: block;
+}
+.tiempocom_widget body {
+  clear: both;
+  margin: auto;
+}
+.tiempocom_widget #izquierda_widget {
+  float: left;
+  margin: 5px
+5px 0;
+  width: 980px;
+}
+.tiempocom_widget #formulario {
+  margin: 5px 0 0;
+}
+.tiempocom_widget table {
+  margin: 0;
+  padding: 0;
+}
+.tiempocom_widget ul {
+  color: #808080;
+}
+.tiempocom_widget span {
+  color: #606060;
+}
+.tiempocom_widget .formu {
+  color: #808080;
+  margin: 0;
+  padding: 0;
+  height: 400px;
+  border: 0;
+}
+.tiempocom_widget .formu .campo {
+  width: 280px;
+}
+.tiempocom_widget .formu .divformu {
+  float: left;
+  width: 78px;
+  padding-top: 6px;
+  font-weight: bold;
+}
+.tiempocom_widget .caja_derecha_310 {
+  width: 220px;
+  border: 2px
+inset blue;
+  padding: 4px;
+  border-radius: 6px;
+}
+.tiempocom_widget table.sample {
+  border: 2px
+none blue;
+  border-collapse: separate;
+  border-radius: 6px;
+}
+.tiempocom_widget table.sample td {
+  width: 220px;
+  border: 2px
+solid #BDBDBD;
+  padding: 6px;
+  border-radius: 6px;
+}
+.tiempocom_widget table.widget {
+  border-collapse: separate;
+  border-radius: 6px;
+}
+.tiempocom_widget table.widget td {
+  border-radius: 6px;
+}
+.tiempocom_widget table.galerias,
+.tiempocom_widget table.galerias td {
+  background: transparent;
+}
+.tiempocom_widget table.fondo {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+.tiempocom_widget table.fondo td {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+.tiempocom_widget td.td_id {
+  padding-top: 10px;
+  font-size: 16px;
+}
+.tiempocom_widget select {
+  margin-left: 10px;
+}
+.tiempocom_widget .fondo td.td_loc {
+  padding-top: 40px;
+  font-size: 16px;
+}
+.tiempocom_widget .fondo td.td_locas {
+  padding-top: 15px;
+}
+.tiempocom_widget .widlocalidades {
+  display: block;
+}
+.tiempocom_widget #min {
+  margin-left: 0 !important;
+}
+.tiempocom_widget h3 {
+  margin-left: 2px;
+  padding-left: 2px;
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: 5px;
+}
+.tiempocom_widget h3 b {
+  font-size: 36px;
+}
+.tiempocom_widget #wCondition {
+  display: none;
+  border: 1px
+solid;
+  border-radius: 5px;
+  width: 360px;
+  padding: 40px;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  bottom: 37px;
+  left: 90px;
+  text-align: justify;
+}
+.tiempocom_widget .span_widget {
+  font-size: 12px;
+  margin: 5px
+0 20px 0;
+  font-weight: normal;
+  color: #616161;
+  border-bottom: 2px solid #c6c6c6;
+  padding-left: 5px;
+  display: block;
+  text-align: justify;
+  width: 360px;
+}
+.tiempocom_widget #wCondition ul {
+  list-style: circle;
+  font-weight: normal;
+  margin-left: 20px;
+}
+.tiempocom_widget #wCondition ul li {
+  margin-bottom: 10px;
+}
+.tiempocom_widget .closeWd {
+  background-position: -1px -1002px;
+  position: absolute;
+  right: 0;
+  top: 6px;
+  width: 27px;
+  height: 21px;
+  cursor: pointer;
+}
+.tiempocom_widget #wCondition span:first-child {
+  border-bottom: 1px solid #d6e1ec;
+  padding: 0
+0 5px 5px;
+  font-weight: bold;
+  display: block;
+}
+.tiempocom_widget ul.condition {
+  list-style-type: circle;
+  margin-left: 20px;
+  font-weight: normal;
+}
+.tiempocom_widget ul.condition li {
+  margin: 10px 0;
+}
+.tiempocom_widget ul.form1 {
+  color: grey;
+  margin-top: 30px;
+}
+.tiempocom_widget ul.form1 li.li_form {
+  float: left;
+  width: 250px;
+  height: 465px;
+  border: 2px
+solid #DBE3E8;
+  border-radius: 4px 4px;
+  background-color: #e9f3f9;
+}
+.tiempocom_widget ul.form1 li.li_form h3 {
+  width: 95%;
+}
+.tiempocom_widget ul.form1 ul {
+  font-weight: normal;
+  padding: 0 5px;
+}
+.tiempocom_widget ul.form1 ul li.li1 {
+  width: 95px;
+  float: left;
+  line-height: 30px;
+  clear: both;
+}
+.tiempocom_widget .font {
+  font-weight: bold;
+  font-size: 14px;
+}
+.tiempocom_widget ul.form1 ul li.li2 {
+  width: 135px;
+  float: left;
+}
+.tiempocom_widget ul.form1 ul li.li3 {
+  width: 250px;
+  float: left;
+  margin: 40px 0 20px 0;
+}
+.tiempocom_widget ul.form1 li.li_form2 {
+  float: left;
+  width: 200px;
+  height: 465px;
+  margin-left: 11px;
+  border: 2px
+solid #DBE3E8;
+  border-radius: 4px 4px;
+  background-color: #e9f3f9;
+}
+.tiempocom_widget ul.form1 li.li_form2 h3 {
+  width: 95%;
+}
+.tiempocom_widget ul.form1 ul {
+  font-weight: normal;
+}
+.tiempocom_widget ul.form1 ul li.li4 {
+  width: 20px;
+  float: left;
+  margin: 3px
+0 0 10px;
+  clear: both;
+}
+.tiempocom_widget ul.form1 ul li.li5 {
+  width: 160px;
+  float: left;
+  margin: 3px 0;
+}
+.tiempocom_widget ul.form1 ul li.li6 {
+  width: 180px;
+  float: left;
+  margin: 30px 0 3px 0;
+}
+.tiempocom_widget label.tanxo {
+  width: 60px;
+  float: left;
+  font-weight: bold;
+  margin-left: 15px;
+  padding-top: 5px;
+}
+.tiempocom_widget #widanchura,
+.tiempocom_widget #widaltura {
+  width: 35px;
+  float: left;
+  text-align: center;
+}
+.tiempocom_widget span.tpx {
+  width: 50px;
+  float: left;
+  margin: 5px 0 0 5px;
+}
+.tiempocom_widget ul.form1 ul li.li7 {
+  width: 180px;
+  float: left;
+  margin: 5px 0 3px 0;
+}
+.tiempocom_widget select {
+  width: 135px;
+  height: 20px;
+  margin: 5px 0;
+}
+.tiempocom_widget select#dias {
+  width: 80px;
+  height: 20px;
+  margin-left: 10px;
+}
+.tiempocom_widget ul.form1 li.li_form3 {
+  float: left;
+  width: 275px;
+  height: 465px;
+  margin-left: 11px;
+  border: 2px
+solid #DBE3E8;
+  border-radius: 4px 4px;
+  background-color: #e9f3f9;
+}
+.tiempocom_widget ul.form1 li.li_form3 h3 {
+  width: 95%;
+}
+.tiempocom_widget span.galery {
+  display: block;
+  float: left;
+  border: 1px
+solid #c1c1c1;
+  border-radius: 3px;
+  margin: 2px;
+  padding: 3px;
+}
+.tiempocom_widget ul.form1 ul li.li8 {
+  width: 100px;
+  float: left;
+  margin: 5px 0 3px 0;
+}
+.tiempocom_widget ul.form1 ul li.li9 {
+  width: 150px;
+  float: left;
+  margin: 0 0 3px 0;
+}
+.tiempocom_widget ul.form1 ul li.li10 {
+  width: 255px;
+  float: left;
+  margin: 5px;
+}
+.tiempocom_widget ul.form1 li.li_form4 {
+  float: left;
+  width: 970px;
+  margin: 10px
+0 10px 2px;
+  border: 2px
+solid #DBE3E8;
+  border-radius: 4px 4px;
+  background-color: #e9f3f9;
+  padding-bottom: 15px;
+}
+.tiempocom_widget ul.form1 li.li_form4 h3 {
+  width: 98%;
+}
+.tiempocom_widget ul.form1 ul li.li11 {
+  text-align: center;
+}
+.tiempocom_widget ul.form1 ul li.li12 {
+  width: 200px;
+  float: left;
+  margin: 40px 0 20px 0;
+}
+.tiempocom_widget .tipo_velocidad {
+  margin: 0;
+}
+.tiempocom_widget .sprite_lunas {
+  background: url("http://css13.tiempo.com/style/imagenes/spriteLunas.png") no-repeat;
+}
+.tiempocom_widget .lunas {
+  width: 45px;
+  height: 45px;
+  float: left;
+  margin-left: 20px;
+}
+.tiempocom_widget .luna_pq0 {
+  background-position: -2px -6px;
+  width: 40px;
+  height: 40px;
+  margin: 5px
+0 5px 30px;
+  float: left;
+}
+.tiempocom_widget .luna_pq1 {
+  background-position: -46px -6px;
+  width: 40px;
+  height: 40px;
+  margin: 5px
+0 5px 30px;
+  float: left;
+}
+.tiempocom_widget .luna_pq2 {
+  background-position: -90px -6px;
+  width: 40px;
+  height: 40px;
+  margin: 5px
+0 5px 30px;
+  float: left;
+}
+.tiempocom_widget .luna_pq3 {
+  background-position: -134px -6px;
+  width: 40px;
+  height: 40px;
+  margin: 5px
+0 5px 30px;
+  float: left;
+}
+.tiempocom_widget .luna_pq4 {
+  background-position: -178px -6px;
+  width: 40px;
+  height: 40px;
+  margin: 5px
+0 5px 30px;
+  float: left;
+}
+.tiempocom_widget .luna_pq5 {
+  background-position: -222px -6px;
+  width: 40px;
+  height: 40px;
+  margin: 5px
+0 5px 30px;
+  float: left;
+}
+.tiempocom_widget .luna_pq6 {
+  background-position: -266px -6px;
+  width: 40px;
+  height: 40px;
+  margin: 5px
+0 5px 30px;
+  float: left;
+}
+.tiempocom_widget .luna_pq7 {
+  background-position: -310px -6px;
+  width: 40px;
+  height: 40px;
+  margin: 5px
+0 5px 30px;
+  float: left;
+}
+.tiempocom_widget .luna_pq8 {
+  background-position: -354px -6px;
+  width: 40px;
+  height: 40px;
+  margin: 5px
+0 5px 30px;
+  float: left;
+}
+.tiempocom_widget .luna_pq9 {
+  background-position: -398px -6px;
+  width: 40px;
+  height: 40px;
+  margin: 5px
+0 5px 30px;
+  float: left;
+}
+.tiempocom_widget .luna_pq10 {
+  background-position: -442px -6px;
+  width: 40px;
+  height: 40px;
+  margin: 5px
+0 5px 30px;
+  float: left;
+}
+.tiempocom_widget .luna_pq11 {
+  background-position: -486px -6px;
+  width: 40px;
+  height: 40px;
+  margin: 5px
+0 5px 30px;
+  float: left;
+}
+.tiempocom_widget .luna_pq12 {
+  background-position: -530px -6px;
+  width: 40px;
+  height: 40px;
+  margin: 5px
+0 5px 30px;
+  float: left;
+}
+.tiempocom_widget .luna_pq13 {
+  background-position: -574px -6px;
+  width: 40px;
+  height: 40px;
+  margin: 5px
+0 5px 30px;
+  float: left;
+}
+.tiempocom_widget .luna_pq14 {
+  background-position: -618px -6px;
+  width: 40px;
+  height: 40px;
+  margin: 5px
+0 5px 30px;
+  float: left;
+}
+.tiempocom_widget .luna_pq15 {
+  background-position: -662px -6px;
+  width: 40px;
+  height: 40px;
+  margin: 5px
+0 5px 30px;
+  float: left;
+}
+.tiempocom_widget .luna_pq16 {
+  background-position: -706px -6px;
+  width: 40px;
+  height: 40px;
+  margin: 5px
+0 5px 30px;
+  float: left;
+}
+.tiempocom_widget .luna_pq17 {
+  background-position: -750px -6px;
+  width: 40px;
+  height: 40px;
+  margin: 5px
+0 5px 30px;
+  float: left;
+}
+.tiempocom_widget .luna_pq18 {
+  background-position: -794px -6px;
+  width: 40px;
+  height: 40px;
+  margin: 5px
+0 5px 30px;
+  float: left;
+}
+.tiempocom_widget .luna_pq19 {
+  background-position: -838px -6px;
+  width: 40px;
+  height: 40px;
+  margin: 5px
+0 5px 30px;
+  float: left;
+}
+.tiempocom_widget .luna_pq20 {
+  background-position: -882px -6px;
+  width: 40px;
+  height: 40px;
+  margin: 5px
+0 5px 30px;
+  float: left;
+}
+.tiempocom_widget .luna_pq21 {
+  background-position: -926px -6px;
+  width: 40px;
+  height: 40px;
+  margin: 5px
+0 5px 30px;
+  float: left;
+}
+.tiempocom_widget .luna_pq22 {
+  background-position: -2px -6px;
+  width: 40px;
+  height: 40px;
+  margin: 5px
+0 5px 30px;
+  float: left;
+}
+.tiempocom_widget .luna_pq23 {
+  background-position: -46px -53px;
+  width: 40px;
+  height: 40px;
+  margin: 5px
+0 5px 30px;
+  float: left;
+}
+.tiempocom_widget .luna_pq24 {
+  background-position: -90px -53px;
+  width: 40px;
+  height: 40px;
+  margin: 5px
+0 5px 30px;
+  float: left;
+}
+.tiempocom_widget .luna_pq25 {
+  background-position: -134px -53px;
+  width: 40px;
+  height: 40px;
+  margin: 5px
+0 5px 30px;
+  float: left;
+}
+.tiempocom_widget .luna_pq26 {
+  background-position: -178px -53px;
+  width: 40px;
+  height: 40px;
+  margin: 5px
+0 5px 30px;
+  float: left;
+}
+.tiempocom_widget .luna_pq27 {
+  background-position: -222px -53px;
+  width: 40px;
+  height: 40px;
+  margin: 5px
+0 5px 30px;
+  float: left;
+}
+.tiempocom_widget .luna_pq28 {
+  background-position: -266px -53px;
+  width: 40px;
+  height: 40px;
+  margin: 5px
+0 5px 30px;
+  float: left;
+}
+.tiempocom_widget .luna_pq29 {
+  background-position: -310px -53px;
+  width: 40px;
+  height: 40px;
+  margin: 5px
+0 5px 30px;
+  float: left;
+}
+.tiempocom_widget #wcodigo {
+  width: 95%;
+}
+.tiempocom_widget .sLi {
+  display: block;
+  width: 100%;
+  float: left;
+  color: red;
+  padding: 10px 0;
+}
+.tiempocom_widget .li11 figure {
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.tiempocom_widget .li11 figcaption {
+  width: 56%;
+  float: left;
+  text-align: right;
+  padding-top: 5px;
+}
+.tiempocom_widget .li11 figure img {
+  float: left;
+}
+.tiempocom_widget input.color_picker {
+  height: 19px;
+  width: 19px;
+  padding: 0!important;
+  border: 1px
+solid #ccc;
+  background: url(/style/imagenes/arrow.gif) no-repeat top right;
+  cursor: pointer;
+  line-height: 16px;
+}
+.tiempocom_widget div#color_selector {
+  width: 110px;
+  position: absolute;
+  border: 1px
+solid #598FEF;
+  background-color: #EFEFEF;
+  padding: 2px;
+}
+.tiempocom_widget div#color_custom {
+  width: 100%;
+  float: left;
+}
+.tiempocom_widget div#color_custom label {
+  font-size: 95%;
+  color: #2F2F2F;
+  margin: 5px
+2px;
+  width: 25%;
+}
+.tiempocom_widget div#color_custom input {
+  margin: 5px
+2px;
+  padding: 0;
+  font-size: 95%;
+  border: 1px
+solid #000;
+  width: 65%;
+}
+.tiempocom_widget div.color_swatch {
+  height: 12px;
+  width: 12px;
+  border: 1px
+solid #000;
+  margin: 2px;
+  float: left;
+  cursor: pointer;
+  line-height: 12px;
+}
